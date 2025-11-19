@@ -1,0 +1,5 @@
+{
+  "name": "Elasto-Mania Clone",
+  "description": "A physics-based motorbike simulation using Verlet integration. Features a custom engine for soft-body physics, procedural terrain, and a propeller-hat rider.",
+  "requestFramePermissions": []
+}

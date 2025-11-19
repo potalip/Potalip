@@ -1,0 +1,29 @@
+
+export const PHYSICS = {
+  GRAVITY: 0.3,
+  FRICTION: 0.995,
+  GROUND_FRICTION: 0.96,
+  SUSPENSION_STIFFNESS: 0.04,
+  RIGID_STIFFNESS: 1.0,
+  BIKE_TORQUE: 0.8,
+  WHEEL_SPEED: 0.4,
+  ITERATIONS: 16, // Higher iterations for stability
+  TIMESTEP: 1000 / 60, // Fixed 60hz physics step
+};
+
+export const COLORS = {
+  SKY: '#87CEEB',
+  TERRAIN_FILL: '#4a3c31',
+  TERRAIN_STROKE: '#4CBB17',
+  BIKE_FRAME: '#DC2626',
+  RIDER_SUIT: '#FFFFFF',
+  HELMET: '#FBBF24',
+  APPLE_BODY: '#EF4444',
+  APPLE_STEM: '#16A34A',
+  KILLER: '#1F2937',
+};
+
+export const GAME_CONFIG = {
+  APPLES_COUNT: 8,
+  TERRAIN_SEGMENTS: 60,
+};
